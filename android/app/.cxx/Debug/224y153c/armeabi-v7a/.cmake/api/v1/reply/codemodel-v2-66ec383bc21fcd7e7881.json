@@ -1,0 +1,238 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "rncameraroll_autolinked_build",
+					"jsonFile" : "directory-rncameraroll_autolinked_build-Debug-f0f696be857061c08483.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/Projetos/CortarImagem/node_modules/@react-native-camera-roll/camera-roll/android/build/generated/source/codegen/jni",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "RNCImageEditorSpec_autolinked_build",
+					"jsonFile" : "directory-RNCImageEditorSpec_autolinked_build-Debug-babfbcd6733b6b99ee40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/Projetos/CortarImagem/node_modules/@react-native-community/image-editor/android/build/generated/source/codegen/jni",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "RNSentrySpec_autolinked_build",
+					"jsonFile" : "directory-RNSentrySpec_autolinked_build-Debug-a62549a3cb19c5a55ea2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/Projetos/CortarImagem/node_modules/@sentry/react-native/android/build/generated/source/codegen/jni",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "rnskia_autolinked_build",
+					"jsonFile" : "directory-rnskia_autolinked_build-Debug-0fca634ea2c621f612e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/Projetos/CortarImagem/node_modules/@shopify/react-native-skia/android/build/generated/source/codegen/jni",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "RNCImageCropPickerSpec_autolinked_build",
+					"jsonFile" : "directory-RNCImageCropPickerSpec_autolinked_build-Debug-dc4a1b747a548dacf03c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/Projetos/CortarImagem/node_modules/react-native-image-crop-picker/android/build/generated/source/codegen/jni",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "safeareacontext_autolinked_build",
+					"jsonFile" : "directory-safeareacontext_autolinked_build-Debug-b94dd6cf0f02ed036504.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/Projetos/CortarImagem/node_modules/react-native-safe-area-context/android/src/main/jni",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "RNVectorIconsSpec_autolinked_build",
+					"jsonFile" : "directory-RNVectorIconsSpec_autolinked_build-Debug-1f0760d58dda75f4294d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "F:/Projetos/CortarImagem/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "appmodules",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "appmodules::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmodules-Debug-bad99b1894f3f1218800.json",
+					"name" : "appmodules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "react_codegen_RNCImageCropPickerSpec::@702b02f8d2524609d414",
+					"jsonFile" : "target-react_codegen_RNCImageCropPickerSpec-Debug-013f9e704cb11c62a565.json",
+					"name" : "react_codegen_RNCImageCropPickerSpec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "react_codegen_RNCImageEditorSpec::@10a91b932da059722293",
+					"jsonFile" : "target-react_codegen_RNCImageEditorSpec-Debug-e226ad5a63b1a6035d07.json",
+					"name" : "react_codegen_RNCImageEditorSpec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "react_codegen_RNSentrySpec::@b85314237d91cb2ada57",
+					"jsonFile" : "target-react_codegen_RNSentrySpec-Debug-3ede2794d71e57bccfc7.json",
+					"name" : "react_codegen_RNSentrySpec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "react_codegen_RNVectorIconsSpec::@479809fae146501fd34d",
+					"jsonFile" : "target-react_codegen_RNVectorIconsSpec-Debug-6981adf07d9253967589.json",
+					"name" : "react_codegen_RNVectorIconsSpec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "react_codegen_rncameraroll::@60139d220751b3dabc04",
+					"jsonFile" : "target-react_codegen_rncameraroll-Debug-b94d0953aefbe219459e.json",
+					"name" : "react_codegen_rncameraroll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "react_codegen_rnskia::@376d8504f62839611b97",
+					"jsonFile" : "target-react_codegen_rnskia-Debug-b2aa404ae09572d9fb12.json",
+					"name" : "react_codegen_rnskia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "react_codegen_safeareacontext::@7984cd80db47aa7b952a",
+					"jsonFile" : "target-react_codegen_safeareacontext-Debug-75b1d3ceb009ceb0de75.json",
+					"name" : "react_codegen_safeareacontext",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/Projetos/CortarImagem/android/app/.cxx/Debug/224y153c/armeabi-v7a",
+		"source" : "F:/Projetos/CortarImagem/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

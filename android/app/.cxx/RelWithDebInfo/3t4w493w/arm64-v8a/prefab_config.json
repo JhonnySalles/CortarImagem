@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "prefabPath": "C:\\Users\\Jhonny\\.gradle\\caches\\modules-2\\files-2.1\\com.google.prefab\\cli\\2.1.0\\aa32fec809c44fa531f01dcfb739b5b3304d3050\\cli-2.1.0-all.jar",
+  "packages": [
+    "C:\\Users\\Jhonny\\.gradle\\caches\\8.14.3\\transforms\\4e8b6213fb5eae35db78ac3948865157\\transformed\\react-android-0.75.5-release\\prefab",
+    "F:\\Projetos\\CortarImagem\\node_modules\\@shopify\\react-native-skia\\android\\build\\intermediates\\prefab_package\\release\\prefab",
+    "C:\\Users\\Jhonny\\.gradle\\caches\\8.14.3\\transforms\\738800d99cf1aee56d52e61857108fc9\\transformed\\hermes-android-0.75.5-release\\prefab",
+    "C:\\Users\\Jhonny\\.gradle\\caches\\8.14.3\\transforms\\b11198277c1301014ab5073ebe45675c\\transformed\\fbjni-0.6.0\\prefab"
+  ]
+}
