@@ -30,7 +30,7 @@ const Screen = () => {
                 selectionLimit: 50,
             });
             const imagePaths = images.map(img => img.path);
-            setSelectedImages(prev => [...prev, ...imagePaths]);
+            setSelectedImages(imagePaths);
         } catch (e: Error | any) {
             if (e.code !== 'E_PICKER_CANCELLED') {
                 Logger.error(e, { message: '[Image Picker] Erro ao selecionar imagens' });
@@ -136,14 +136,6 @@ const Screen = () => {
 
     return (
         <StyledSafeAreaView>
-            {selectedImages.length > 0 && (
-                <ActionContainer>
-                    <FullWidthButton onPress={handleAdjustAllImages} disabled={isAdjustingImages}>
-                        <Icon name="crop-outline" size={20} color={theme.colors.white} />
-                        <ButtonText>Corrigir Bordas de Todas Imagens</ButtonText>
-                    </FullWidthButton>
-                </ActionContainer>
-            )}
             <Container>
                 <FlatList
                     data={selectedImages}
@@ -162,7 +154,17 @@ const Screen = () => {
                     </ProgressContainer>
                 )}
             </Container>
-            <ActionContainer isBottom>
+
+            {selectedImages.length > 0 && (
+                <ActionContainer isBottom isFirst={selectedImages.length > 0}>
+                    <FullWidthButton onPress={handleAdjustAllImages} disabled={isAdjustingImages}>
+                        <Icon name="crop-outline" size={20} color={theme.colors.white} />
+                        <ButtonText>Corrigir Bordas de Todas Imagens</ButtonText>
+                    </FullWidthButton>
+                </ActionContainer>
+            )}
+
+            <ActionContainer isBottom isFirst={selectedImages.length < 1}>
                 <FullWidthButton onPress={handleImagePicker} disabled={isAdjustingImages}>
                     <Icon name="image-outline" size={20} color={theme.colors.white} />
                     <ButtonText>Carregar Imagens</ButtonText>
@@ -182,12 +184,12 @@ const Container = styled.View`
   padding: 10px;
 `;
 
-const ActionContainer = styled.View<{ isBottom?: boolean }>`
+const ActionContainer = styled.View<{ isBottom?: boolean, isFirst?: boolean }>`
   padding: 10px;
-  padding-top: ${({ isBottom }) => (isBottom ? '8px' : '12px')};
-  padding-bottom: ${({ isBottom }) => (isBottom ? '12px' : '8px')};
-  border-top-width: ${({ isBottom }) => (isBottom ? '1px' : '0px')};
-  border-bottom-width: ${({ isBottom }) => (isBottom ? '0px' : '1px')};
+  padding-top: ${({ isBottom, isFirst }) => (isBottom ? '8px' : '12px')};
+  padding-bottom: ${({ isBottom, isFirst }) => (isBottom ? '12px' : '8px')};
+  border-top-width: ${({ isBottom, isFirst }) => (isBottom && isFirst ? '1px' : '0px')};
+  border-bottom-width: ${({ isBottom, isFirst }) => (isBottom ? '0px' : '1px')};
   border-color: ${({ theme }) => theme.colors.border};
   background-color: ${({ theme }) => theme.colors.background};
 `;
