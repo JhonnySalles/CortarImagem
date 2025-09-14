@@ -126,6 +126,15 @@ android {
         }
     }
 
+    android.applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def project = "cortar-imagem"
+            def version = variant.versionName
+            def buildType = variant.buildType.name
+            outputFileName = "${project}-v${version}-${buildType}.apk"
+        }
+    }
+
     packagingOptions {
         resources {
             exclude 'META-INF/LICENSE'
